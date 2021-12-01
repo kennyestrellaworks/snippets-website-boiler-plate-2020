@@ -1,0 +1,16 @@
+{
+  "name": "2-snippets-boiler-plate-2020",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "last 10 versions",
+  "main": "index.js",
+  "scripts": {
+    "watchSass": "sass --watch sass/main.scss:css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.44.0"
+  }
+}

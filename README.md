@@ -1,0 +1,1 @@
+Starter files for building a website template from scratch.

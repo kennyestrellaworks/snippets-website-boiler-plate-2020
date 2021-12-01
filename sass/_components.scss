@@ -1,0 +1,25 @@
+/************* 
+LOGO */
+.logo-style-1 {
+    &__logo-svg {
+        height: 3rem;
+    }    
+}
+/************* 
+NAVIGATION */
+.nav-style-1 {    
+    &__nav-list {
+        display: flex;
+        list-style: none;
+        &-items {
+            flex-direction: row;
+            &:not(:last-child) {
+                margin-right: 2rem;
+            }
+            &-link {
+                text-decoration: none;
+                color: $color-white;
+            }
+        }
+    }
+}

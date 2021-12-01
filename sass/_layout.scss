@@ -1,0 +1,16 @@
+.screen-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inside-wrapper {
+    width: 192rem; /* 1920px limit */
+}
+.header {
+    &__wrapper {
+        margin: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

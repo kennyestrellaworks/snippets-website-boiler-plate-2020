@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    font-family: "Roboto Light";
+    line-height: 1.3;
+    font-size: 1.6rem;
+    background-image: linear-gradient(
+        to right top,
+        rgba($color-primary, 1),
+        rgba($color-tertiary, 1)
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
